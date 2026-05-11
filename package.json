@@ -1,0 +1,28 @@
+{
+  "name": "datalogger",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "devDependencies": {
+    "@fitbit/sdk": "^7.2.0-pre.0",
+    "@fitbit/sdk-cli": "^1.8.0-pre.11"
+  },
+  "fitbit": {
+    "appUUID": "7e81747c-896c-483c-b41a-0971aa4f05c2",
+    "appType": "app",
+    "appDisplayName": "Datalogger",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": ["access_heart_rate", "access_activity", "access_location", "access_user_profile"],
+    "buildTargets": [
+      "rhea"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}

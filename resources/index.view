@@ -1,0 +1,12 @@
+<svg>
+  <rect id="background" />
+  <text id="text" class="clockText">
+    Datalogger app test!
+  </text>
+  <text id="batteryLabel" class="defaultText" y="20%" fill="white">
+  <text id="StepsLabel" class="defaultText" y="25%"/>
+  <text id="HeartRateLabel" class="defaultText" y="30%"/>
+  <text id="AccelerometerLabel" class="defaultText" y="35%"/>
+  <text id="GyroscopeLabel" class="defaultText" y="45%"/>
+  <text id="BodyPresenceLabel" class="defaultText" y="50%"/>
+</svg>
